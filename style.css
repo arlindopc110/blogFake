@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Cor de fundo do body */
+    color: #fff; /* Cor do texto */
+}
+
+h1 {
+    color: #ccc; /* Cor do título principal */
+}
+
+fieldset {
+    width: 60%;
+    border: 1px solid #d0d0d0; /* Cor da borda do fieldset */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #5b5b5b; /* Cor de fundo do fieldset */
+}
+
+input::content {
+    color: white;
+}
+
+legend {
+    font-weight: bold;
+    color: #ccc; /* Cor do título do fieldset */
+}
+
+input,
+textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555; /* Cor da borda do input e textarea */
+    border-radius: 5px;
+    background-color: #6d6d6d; /* Cor de fundo do input e textarea */
+    color: #fff; /* Cor do texto do input e textarea */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+}
+
+.posts {
+    margin-top: 20px;
+}
+
+.posts div {
+    border: 1px solid #555; /* Cor da borda dos posts */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #666; /* Cor de fundo dos posts */
+}
+
+.posts h1 {
+    color: #ccc; /* Cor do título dos posts */
+}
