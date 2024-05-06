@@ -16,8 +16,11 @@ Estrutura do Projeto:
 O projeto consiste em três arquivos principais:
 
 index.html: Contém a estrutura HTML da interface de usuário do blog, incluindo campos para inserir um novo post e uma área para exibir posts existentes.
+
 style.css: Define a aparência e o estilo da interface do usuário, incluindo um tema de dark mode.
+
 scriptCurso.js: Contém o código JavaScript responsável por lidar com as requisições HTTP para obter e adicionar posts usando a API JSONPlaceholder, além de interagir com a interface de usuário.
+
 Como Executar o Projeto
 Como este projeto consome uma API pública, não é necessário configurar um servidor local. Basta abrir o arquivo index.html em seu navegador para visualizar o blog e interagir com ele.
 
